@@ -4,6 +4,8 @@ by Team 7 at Hacking 4 Community
 
 Watch the video [here]()
 
+[Alt Text](screenshots/front.png)
+
 As indicated by the Digital Mental Health Revolution report, it was found just 52 applications out of 1,000 utilize compelling mental procedures to decrease uneasiness. With the assistance of two or three brain science majors, we directed a review asking how mindful individuals are of their psychological well-being. We tracked down that the vast majority are strained and discouraged in their everyday lives except will not connect with an advisor. We attempted to overcome any issues between the specialist and the patient in any non-profit organization (which helps people deal with mental stress) with mooody, an android application that lifts your psyche, more like a companion.
 
 ## Features:
