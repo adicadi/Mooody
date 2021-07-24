@@ -34,3 +34,41 @@ Keep up to date on all the exploration articles and online journals identified w
 
 ### 4. Meditation Simulator
 
+Hand-picked assortment of encompassing sounds like the voice of the downpour, loosening up strong of nature, the elevating voice of harmony, and the quiet solid of room, which assists you with unwinding and frees your brain.
+
+## Future Work
+
+:soon: Improve the survey by conversing with more analysts which thus will help the client in acknowledging how is he feeling all the more accurately.
+
+:soon: Expand the usefulness of our motion pictures and tunes suggestion motor utilizing NLP and Machine Learning Techniques and add more things, not limited to simply films and melodies.
+
+:soon: To advance emotional wellness and mindfulness, we can contact web-based media influencers and online classes with respect to something very similar.
+
+:soon: Team up with advisors for online interviews through mooody.
+
+## Tech Stack
+
+:octocat: Database: Firebase
+
+:octocat: API: NEWS API
+
+:octocat: Code: Flutter
+
+:octocat: Prototype: Adobe XD
+
+## Requirements
+
+### Hardware
+
+<ul>
+ <li>macOS, Windows or Linux</li>
+ <li>At least 8GB of RAM recommended</li>
+</ul>
+
+### Software (for development)
+
+<ul>
+ <li>A code editor (VS Code or Android Studio preferred)</li>
+ <li>Software (for testing)</li>
+ <li>Android 5.0 or higher (minimum API Level 21 recommended)</li>
+</ul> 
