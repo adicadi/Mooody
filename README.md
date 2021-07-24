@@ -72,3 +72,12 @@ Hand-picked assortment of encompassing sounds like the voice of the downpour, lo
  <li>Software (for testing)</li>
  <li>Android 5.0 or higher (minimum API Level 21 recommended)</li>
 </ul> 
+
+## Instructions to run the project locally
+
+1. Clone the repository and go to the root folder of the project, named `mooody` in any editor (VS Code preferred).
+2. Inside the root folder, open `pubspec.yaml` file and in the terminal run `flutter pub get`.
+3. Once the command has been execued, go in the folder named `lib` and open the file named `main.dart`.
+4. After opening the file, run `flutter run` in the terminal to start the android application.
+
+Made by Yash Garg | Aditya Chaudhary | Arpit Masih
