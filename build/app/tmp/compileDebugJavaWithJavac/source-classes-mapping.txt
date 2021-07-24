@@ -1,4 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-com/team7/mooody/BuildConfig.java
- com.team7.mooody.BuildConfig
