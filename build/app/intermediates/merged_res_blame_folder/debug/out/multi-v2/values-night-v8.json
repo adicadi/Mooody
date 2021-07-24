@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/mnt/Work/Mine/Projects/Flutter_projects/Mooody/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/res/values-night/styles.xml",
+                    "from": {
+                        "startLines": "3,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "175,889",
+                        "endLines": "8,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "531,1055"
+                    },
+                    "to": {
+                        "startLines": "2,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,411",
+                        "endLines": "7,10",
+                        "endColumns": "12,12",
+                        "endOffsets": "406,575"
+                    }
+                }
+            ]
+        }
+    ]
+}

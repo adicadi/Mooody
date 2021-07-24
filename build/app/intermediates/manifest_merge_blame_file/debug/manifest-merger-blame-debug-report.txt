@@ -1,0 +1,223 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.team7.mooody"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:3:5-67
+14-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:4:5-76
+15-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:4:22-74
+16    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-firestore:23.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/640f61193d790dbbd22b6a6647429525/jetified-firebase-firestore-23.0.0/AndroidManifest.xml:13:5-79
+17-->[com.google.firebase:firebase-firestore:23.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/640f61193d790dbbd22b6a6647429525/jetified-firebase-firestore-23.0.0/AndroidManifest.xml:13:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/99bc2e3f84266606855b0f28cac3e004/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:24:5-68
+18-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/99bc2e3f84266606855b0f28cac3e004/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:24:22-65
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/80c7b25c04078ed59782106118e71885/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/80c7b25c04078ed59782106118e71885/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
+20
+21    <application
+21-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:8:4-45:19
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.7.0-alpha01] /home/aditya/.gradle/caches/transforms-2/files-2.1/8a2e49ffc55c3a818fc5d26b43ba6f79/core-1.7.0-alpha01/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:10:9-43
+25        android:label="mooody" >
+25-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:9:9-31
+26        <activity
+26-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:11:9-39:20
+27            android:name="com.team7.mooody.MainActivity"
+27-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:12:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:15:13-163
+29            android:hardwareAccelerated="true"
+29-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:16:13-47
+30            android:launchMode="singleTop"
+30-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:13:13-43
+31            android:theme="@style/LaunchTheme"
+31-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:14:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:17:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:22:13-25:17
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:23:15-70
+42                android:resource="@style/NormalTheme" />
+42-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:24:15-52
+43            <!--
+44                 Displays an Android View that continues showing the launch screen
+45                 Drawable until Flutter paints its first frame, then this splash
+46                 screen fades out. A splash screen is useful to avoid any visual
+47                 gap between the end of Android's launch screen and the painting of
+48                 Flutter's first frame.
+49            -->
+50            <meta-data
+50-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:31:13-34:17
+51                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+51-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:32:15-79
+52                android:resource="@drawable/launch_background" />
+52-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:33:15-61
+53
+54            <intent-filter>
+54-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:35:13-38:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:36:17-68
+55-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:36:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:37:17-76
+57-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:37:27-74
+58            </intent-filter>
+59        </activity>
+60        <!--
+61             Don't delete the meta-data below.
+62             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+63        -->
+64        <meta-data
+64-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:42:9-44:33
+65            android:name="flutterEmbedding"
+65-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:43:13-44
+66            android:value="2" />
+66-->/mnt/Work/Mine/Projects/Flutter_projects/Mooody/android/app/src/main/AndroidManifest.xml:44:13-30
+67
+68        <service
+68-->[:cloud_firestore] /mnt/Work/Mine/Projects/Flutter_projects/Mooody/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+69            android:name="com.google.firebase.components.ComponentDiscoveryService"
+69-->[:cloud_firestore] /mnt/Work/Mine/Projects/Flutter_projects/Mooody/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+70            android:directBootAware="true"
+70-->[com.google.firebase:firebase-common:20.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/d5f6c1426cc29f83e091f68f17f3f874/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+71            android:exported="false" >
+71-->[com.google.firebase:firebase-analytics-ktx:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/933b0ff420afc4d1f123b659704b268e/jetified-firebase-analytics-ktx-19.0.0/AndroidManifest.xml:10:13-37
+72            <meta-data
+72-->[:cloud_firestore] /mnt/Work/Mine/Projects/Flutter_projects/Mooody/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+73-->[:cloud_firestore] /mnt/Work/Mine/Projects/Flutter_projects/Mooody/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[:cloud_firestore] /mnt/Work/Mine/Projects/Flutter_projects/Mooody/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+75            <meta-data
+75-->[:firebase_core] /mnt/Work/Mine/Projects/Flutter_projects/Mooody/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+76-->[:firebase_core] /mnt/Work/Mine/Projects/Flutter_projects/Mooody/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[:firebase_core] /mnt/Work/Mine/Projects/Flutter_projects/Mooody/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-analytics-ktx:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/933b0ff420afc4d1f123b659704b268e/jetified-firebase-analytics-ktx-19.0.0/AndroidManifest.xml:11:13-13:85
+79                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+79-->[com.google.firebase:firebase-analytics-ktx:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/933b0ff420afc4d1f123b659704b268e/jetified-firebase-analytics-ktx-19.0.0/AndroidManifest.xml:12:17-126
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-analytics-ktx:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/933b0ff420afc4d1f123b659704b268e/jetified-firebase-analytics-ktx-19.0.0/AndroidManifest.xml:13:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-common-ktx:20.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/4bf01174cedca4d3563da9b2735e307b/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+82                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+82-->[com.google.firebase:firebase-common-ktx:20.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/4bf01174cedca4d3563da9b2735e307b/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:16:17-113
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-common-ktx:20.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/4bf01174cedca4d3563da9b2735e307b/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:17:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-firestore:23.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/640f61193d790dbbd22b6a6647429525/jetified-firebase-firestore-23.0.0/AndroidManifest.xml:20:13-22:85
+85                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+85-->[com.google.firebase:firebase-firestore:23.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/640f61193d790dbbd22b6a6647429525/jetified-firebase-firestore-23.0.0/AndroidManifest.xml:21:17-111
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-firestore:23.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/640f61193d790dbbd22b6a6647429525/jetified-firebase-firestore-23.0.0/AndroidManifest.xml:22:17-82
+87            <meta-data
+87-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/99bc2e3f84266606855b0f28cac3e004/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+88                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+88-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/99bc2e3f84266606855b0f28cac3e004/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/99bc2e3f84266606855b0f28cac3e004/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-installations:17.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/3c4dd8fc019a5a95e3a6d7e26412d07b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+91                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+91-->[com.google.firebase:firebase-installations:17.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/3c4dd8fc019a5a95e3a6d7e26412d07b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-installations:17.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/3c4dd8fc019a5a95e3a6d7e26412d07b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+93        </service>
+94
+95        <activity
+95-->[:url_launcher] /mnt/Work/Mine/Projects/Flutter_projects/Mooody/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+96            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+96-->[:url_launcher] /mnt/Work/Mine/Projects/Flutter_projects/Mooody/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+97            android:exported="false"
+97-->[:url_launcher] /mnt/Work/Mine/Projects/Flutter_projects/Mooody/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+98            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+98-->[:url_launcher] /mnt/Work/Mine/Projects/Flutter_projects/Mooody/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+99
+100        <provider
+100-->[com.google.firebase:firebase-common:20.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/d5f6c1426cc29f83e091f68f17f3f874/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+101            android:name="com.google.firebase.provider.FirebaseInitProvider"
+101-->[com.google.firebase:firebase-common:20.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/d5f6c1426cc29f83e091f68f17f3f874/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+102            android:authorities="com.team7.mooody.firebaseinitprovider"
+102-->[com.google.firebase:firebase-common:20.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/d5f6c1426cc29f83e091f68f17f3f874/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+103            android:directBootAware="true"
+103-->[com.google.firebase:firebase-common:20.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/d5f6c1426cc29f83e091f68f17f3f874/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+104            android:exported="false"
+104-->[com.google.firebase:firebase-common:20.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/d5f6c1426cc29f83e091f68f17f3f874/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+105            android:initOrder="100" />
+105-->[com.google.firebase:firebase-common:20.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/d5f6c1426cc29f83e091f68f17f3f874/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+106
+107        <activity
+107-->[com.google.android.gms:play-services-base:17.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/aad30314924673056a4b631eb474e416/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+108-->[com.google.android.gms:play-services-base:17.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/aad30314924673056a4b631eb474e416/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-base:17.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/aad30314924673056a4b631eb474e416/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[com.google.android.gms:play-services-base:17.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/aad30314924673056a4b631eb474e416/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+111
+112        <receiver
+112-->[com.google.android.gms:play-services-measurement:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/80c7b25c04078ed59782106118e71885/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+113            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+113-->[com.google.android.gms:play-services-measurement:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/80c7b25c04078ed59782106118e71885/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+114            android:enabled="true"
+114-->[com.google.android.gms:play-services-measurement:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/80c7b25c04078ed59782106118e71885/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+115            android:exported="false" >
+115-->[com.google.android.gms:play-services-measurement:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/80c7b25c04078ed59782106118e71885/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+116        </receiver>
+117
+118        <service
+118-->[com.google.android.gms:play-services-measurement:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/80c7b25c04078ed59782106118e71885/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+119            android:name="com.google.android.gms.measurement.AppMeasurementService"
+119-->[com.google.android.gms:play-services-measurement:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/80c7b25c04078ed59782106118e71885/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+120            android:enabled="true"
+120-->[com.google.android.gms:play-services-measurement:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/80c7b25c04078ed59782106118e71885/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+121            android:exported="false" />
+121-->[com.google.android.gms:play-services-measurement:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/80c7b25c04078ed59782106118e71885/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+122        <service
+122-->[com.google.android.gms:play-services-measurement:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/80c7b25c04078ed59782106118e71885/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+123            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+123-->[com.google.android.gms:play-services-measurement:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/80c7b25c04078ed59782106118e71885/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+124            android:enabled="true"
+124-->[com.google.android.gms:play-services-measurement:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/80c7b25c04078ed59782106118e71885/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-measurement:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/80c7b25c04078ed59782106118e71885/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+126            android:permission="android.permission.BIND_JOB_SERVICE" />
+126-->[com.google.android.gms:play-services-measurement:19.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/80c7b25c04078ed59782106118e71885/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:17.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/ef99102de641bf70f0cfc954e8341aee/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:17.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/ef99102de641bf70f0cfc954e8341aee/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:17.0.0] /home/aditya/.gradle/caches/transforms-2/files-2.1/ef99102de641bf70f0cfc954e8341aee/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+131    </application>
+132
+133</manifest>

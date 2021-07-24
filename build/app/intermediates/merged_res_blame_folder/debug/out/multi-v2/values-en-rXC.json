@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/mnt/Work/Mine/Projects/Flutter_projects/Mooody/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
+            "map": [
+                {
+                    "source": "/home/aditya/.gradle/caches/transforms-2/files-2.1/8a2e49ffc55c3a818fc5d26b43ba6f79/core-1.7.0-alpha01/res/values-en-rXC/values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "203",
+                        "endOffsets": "254"
+                    }
+                }
+            ]
+        }
+    ]
+}
