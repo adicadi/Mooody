@@ -90,7 +90,7 @@ Hand-picked assortment of encompassing sounds like the voice of the downpour, lo
 ## Instructions to run the project locally
 
 1. Clone the repository and go to the root folder of the project, named `mooody` in any editor (VS Code preferred).
-2. Connect your android phone using a USB (make sure developer option is enabled in you settings) and then go to settings and enable USB Debugging. 
+2. Connect your android phone using a USB (make sure developer option is enabled in your settings) and then go to settings and enable USB Debugging. 
 3. Now, in your editor, inside the root folder, open `pubspec.yaml` file and in the terminal run `flutter pub get`.
 4. Once the command has been execued, go in the folder named `lib` and open the file named `main.dart`.
 5. After opening the file, run `flutter run` in the terminal to start the android application.
